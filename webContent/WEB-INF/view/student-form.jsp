@@ -8,9 +8,25 @@
 	
 		<form:form action="processForm" modelAttribute="student">
 			
-			First name: <form:input path="firstName"/> <br> <br>
+			First name: <form:input path="firstName"/> 
 			
-			Last name: <form:input path="lastName"/> <br> <br>
+			<br><br>
+			
+			Last name: <form:input path="lastName"/> 
+			
+			<br><br>
+			
+			Country: <form:select path="country">
+				
+				<form:option value="Algeria" label="Algeria"/>
+			    <form:option value="Egypt" label="Egypt"/>
+				<form:option value="Qatar" label="Qatar"/>
+				<form:option value="Morocco" label="Morocco"/>
+				
+			
+			</form:select>
+			
+			<br><br>
 				
 			<input  type="submit" value="Submit"/>
 			
