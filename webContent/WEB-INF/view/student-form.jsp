@@ -18,10 +18,7 @@
 			
 			Country: <form:select path="country">
 				
-				<form:option value="Algeria" label="Algeria"/>
-			    <form:option value="Egypt" label="Egypt"/>
-				<form:option value="Qatar" label="Qatar"/>
-				<form:option value="Morocco" label="Morocco"/>
+				<form:options items="${student.countryOptions }"/>
 				
 			
 			</form:select>
