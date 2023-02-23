@@ -18,6 +18,10 @@
 	
 	<br> <br>
 	
+	Course code: ${customer.courseCode}
+	
+	<br> <br>
+	
 	Postal code: ${customer.postalCode}
 	
 
